@@ -1,0 +1,5 @@
+name = "RTHybrid Hindmarsh-Rose 1984 Neuron v2"
+kind = "rthybrid_hindmarsh_rose_1984_neuron_v2"
+version = "0.1.0"
+description = "Hindmarsh-Rose neuron model with Vh term"
+library = "librthybrid_hindmarsh_rose_1984_neuron_v2.so"
