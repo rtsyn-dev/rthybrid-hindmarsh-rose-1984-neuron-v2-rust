@@ -1,0 +1,142 @@
+name = "RTHybrid Hindmarsh-Rose 1984 Neuron v2"
+        description = "Hindmarsh-Rose 1984 neuron model integrated with RK4."
+
+[[controls]]
+name = "x0"
+label = "X0"
+kind = "number"
+target = "param"
+param_id = 0
+value_type = "f64"
+default = "-0.9013747551021072"
+
+[[controls]]
+name = "y0"
+label = "Y0"
+kind = "number"
+target = "param"
+param_id = 1
+value_type = "f64"
+default = "-3.15948829665501"
+
+[[controls]]
+name = "z0"
+label = "Z0"
+kind = "number"
+target = "param"
+param_id = 2
+value_type = "f64"
+default = "3.247826955037619"
+
+[[controls]]
+name = "e"
+label = "E"
+kind = "number"
+target = "param"
+param_id = 3
+value_type = "f64"
+default = "3.0"
+
+[[controls]]
+name = "a"
+label = "A"
+kind = "number"
+target = "param"
+param_id = 4
+value_type = "f64"
+default = "1.0"
+
+[[controls]]
+name = "b"
+label = "B"
+kind = "number"
+target = "param"
+param_id = 5
+value_type = "f64"
+default = "3.0"
+
+[[controls]]
+name = "c"
+label = "C"
+kind = "number"
+target = "param"
+param_id = 6
+value_type = "f64"
+default = "1.0"
+
+[[controls]]
+name = "d"
+label = "D"
+kind = "number"
+target = "param"
+param_id = 7
+value_type = "f64"
+default = "5.0"
+
+[[controls]]
+name = "mu"
+label = "Mu"
+kind = "number"
+target = "param"
+param_id = 8
+value_type = "f64"
+default = "0.0021"
+
+[[controls]]
+name = "S"
+label = "S"
+kind = "number"
+target = "param"
+param_id = 9
+value_type = "f64"
+default = "4.0"
+
+[[controls]]
+name = "xr"
+label = "Xr"
+kind = "number"
+target = "param"
+param_id = 10
+value_type = "f64"
+default = "-1.6"
+
+[[controls]]
+name = "Vh"
+label = "Vh"
+kind = "number"
+target = "param"
+param_id = 11
+value_type = "f64"
+default = "1.0"
+
+[[controls]]
+name = "burst_duration"
+label = "Burst Duration"
+kind = "number"
+target = "param"
+param_id = 12
+value_type = "f64"
+default = "1.0"
+
+
+[[indicators]]
+name = "x"
+label = "X"
+target = "state"
+state_id = 0
+value_type = "f64"
+
+[[indicators]]
+name = "y"
+label = "Y"
+target = "state"
+state_id = 1
+value_type = "f64"
+
+[[indicators]]
+name = "z"
+label = "Z"
+target = "state"
+state_id = 2
+value_type = "f64"
+
